@@ -21,7 +21,7 @@ public class User {
         this.slNo = slNo;
     }
 
-    //Methods
+
     public String getName() {
         return name;
     }

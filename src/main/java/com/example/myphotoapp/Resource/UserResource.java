@@ -45,7 +45,7 @@ public class UserResource {
         return userService.updateAlbum(slNo,user);
     }
 
-    //DELETE API
+    //DELETE
     @DeleteMapping("/album")
     public User deleteAlbum(@RequestParam(name = "slNo") int slNo){
         return userService.deleteAlbum(slNo);

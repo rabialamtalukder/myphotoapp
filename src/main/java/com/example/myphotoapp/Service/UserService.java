@@ -36,7 +36,7 @@ public class UserService {
         return userRepository.updateAlbum(slNo, user);
     }
 
-    //DELETE API
+    //DELETE
     public User deleteAlbum(int slNo) {
         return userRepository.deleteAlbum(slNo);
     }

@@ -47,7 +47,7 @@ public class UserRepository {
     }*/
 
 
-    //PUT API
+    //PUT
     public User updateAlbum(int slNo, User user) {
         for (User u:userList){
             if (u.getSlNo()== slNo){
